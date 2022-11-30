@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    color: white;
+}
+header,footer{
+    background-color: skyblue;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+}
+nav{
+    background-color: crimson;
+    height: 100vh;
+    float: left;
+    width: 300px;
+    line-height: 10vh;
+}
+article{
+    background-color: midnightblue;
+    flex: 2;
+}
+aside{
+    background-color: plum;
+    flex: 1;
+}
+main{
+    display: flex;
+    justify-content: baseline;
+    height: 80vh;
+    line-height: 20vh;
+    text-align: center;
+}
